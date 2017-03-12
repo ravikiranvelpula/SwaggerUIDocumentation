@@ -1,0 +1,39 @@
+
+[[_paths]]
+== Paths
+
+[[_hellousingget]]
+=== hello
+....
+GET /hello
+....
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|string
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Consumes
+
+* `application/json`
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* swag-xchange-service
+
+
+
